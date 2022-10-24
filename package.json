@@ -1,0 +1,57 @@
+{
+  "name": "project-2-group-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "dev": "ts-node-dev main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Tst99/project-2-group-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Tst99/project-2-group-6/issues"
+  },
+  "homepage": "https://gitlab.com/Tst99/project-2-group-6#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/crypto-js": "^4.0.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/jsonfile": "^6.0.1",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.0",
+    "@types/node-fetch": "^2.5.12",
+    "@types/object-hash": "^2.2.1",
+    "@types/pg": "^8.6.1",
+    "@types/react-alert": "^5.2.1",
+    "@types/react-dom": "^17.0.11",
+    "@types/xlsx": "^0.0.36",
+    "body-parser": "^1.19.1",
+    "crypto-hash": "^2.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "gen-env": "^0.2.0",
+    "grant": "^5.4.18",
+    "jsonfile": "^6.1.0",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1",
+    "socket.io": "^4.4.0",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4",
+    "xlsx": "^0.17.4"
+  },
+  "keywords": [],
+  "devDependencies": {},
+  "description": ""
+}

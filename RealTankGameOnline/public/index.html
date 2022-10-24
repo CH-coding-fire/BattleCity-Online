@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TankGame</title>
+</head>
+
+<body class="img js-fullheight" style="background-image: url(images/bg.jpg)">
+    <canvas id="canvas"></canvas>
+    <img src="img/redTankUp.png" alt="" , id="tankUpsource" , class="hidden" />
+    <img src="img/redTankDown.png" alt="" , id="tankDownsource" , class="hidden" />
+    <img src="img/redTankLeft.png" alt="" , id="tankLeftsource" , class="hidden" />
+    <img src="img/redTankRight.png" alt="" , id="tankRightsource" , class="hidden" />
+    <img src="img/GreenTankUp.png" alt="" , id="tankUpsourceP2" , class="hidden" />
+    <img src="img/GreenTankDown.png" alt="" , id="tankDownsourceP2" , class="hidden" />
+    <img src="img/GreenTankLeft.png" alt="" , id="tankLeftsourceP2" , class="hidden" />
+    <img src="img/GreenTankRight.png" alt="" , id="tankRightsourceP2" , class="hidden" />
+    <img src="img/water.png" alt="" , id="water" , class="hidden" />
+    <img src="img/plants.png" alt="" , id="plant" , class="hidden" />
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <script src="keyboardControl.js"></script>
+    <script src="sizeOfcanvas.js"></script>
+</body>
+
+</html>

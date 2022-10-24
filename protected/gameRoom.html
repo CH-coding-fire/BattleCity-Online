@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TankGame</title>
+</head>
+
+<body class="img js-fullheight" style="background-image: url(images/bg.jpg)">
+    <canvas id="canvas"></canvas>
+
+    <button id="prepare">Ready</button>
+    <div>W ↑</div>
+    <div>S ↓</div>
+    <div>A ←</div>
+    <div>D →</div>
+    <div>Space Fire</div>
+    <img src="img/redTankUp.png" alt="" , id="tankUpsource" , class="hidden" />
+    <img src="img/redTankDown.png" alt="" , id="tankDownsource" , class="hidden" />
+    <img src="img/redTankLeft.png" alt="" , id="tankLeftsource" , class="hidden" />
+    <img src="img/redTankRight.png" alt="" , id="tankRightsource" , class="hidden" />
+    <img src="img/GreenTankUp.png" alt="" , id="tankUpsourceP2" , class="hidden" />
+    <img src="img/GreenTankDown.png" alt="" , id="tankDownsourceP2" , class="hidden" />
+    <img src="img/GreenTankLeft.png" alt="" , id="tankLeftsourceP2" , class="hidden" />
+    <img src="img/GreenTankRight.png" alt="" , id="tankRightsourceP2" , class="hidden" />
+    <img src="img/steel.png" alt="" , id="steel" , class="hidden" />
+    <img src="img/bricks.png" alt="" , id="brick" , class="hidden" />
+
+    <img src="img/jenBulletDown.png" alt="" , id="jenBulletDown" , class="hidden" />
+    <img src="img/jenBulletUp.png" alt="" , id="jenBulletUp" , class="hidden" />
+    <img src="img/jenBulletLeft.png" alt="" , id="jenBulletLeft" , class="hidden" />
+    <img src="img/jenBulletRight.png" alt="" , id="jenBulletRight" , class="hidden" />
+
+    <img src="img/water.png" alt="" , id="water" , class="hidden" />
+    <img src="img/plants.png" alt="" , id="plant" , class="hidden" />
+
+    <script src="/admin/socket.io.js"></script>
+    <script src="/admin/index.js"></script>
+    <script src="/admin/keyboardControl.js"></script>
+    <script src="/admin/sizeOfcanvas.js"></script>
+</body>
+
+</html>
