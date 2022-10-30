@@ -24,7 +24,7 @@ export const io = new SocketIO(server);
 
 app.use(
   expressSession({
-    secret: "Tecky Academy teaches typescript",
+    secret: "xxxyyy",
     resave: true,
     saveUninitialized: true,
   })
